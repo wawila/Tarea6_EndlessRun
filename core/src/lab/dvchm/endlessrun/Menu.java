@@ -78,7 +78,6 @@ public class Menu extends PersonajeAnimado{
 	public boolean iniciarJuego()
 	{
 		
-		
 		if(Gdx.input.isKeyPressed(Keys.NUM_1))
 			cont++;
 		

@@ -13,7 +13,6 @@ public class ClasePrincipal extends ApplicationAdapter implements InputProcessor
 	Personaje jugador;
 	Menu m;
 	
-	
 	@Override
 	public void create () {		
 		stage=new Stage();
@@ -27,6 +26,7 @@ public class ClasePrincipal extends ApplicationAdapter implements InputProcessor
 		stage.addActor(new Plataforma1());
 		stage.addActor(new Plataforma2());
 		menu.addActor(new Menu());
+		menu.addActor(new Explosion());
 	//	stage.addActor(new Explosion());	
 	}
 
